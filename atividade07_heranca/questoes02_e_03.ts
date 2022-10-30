@@ -12,7 +12,7 @@ class Calculadora{
     }
 }
 
-let teste = new Calculadora(5, 6);
+let teste: Calculadora = new Calculadora(5, 6);
 console.log(teste.soma());
 
 class CalculadoraCientifica extends Calculadora{
@@ -25,7 +25,7 @@ class CalculadoraCientifica extends Calculadora{
     }
 }
 
-let teste2 = new CalculadoraCientifica(4, 2);
+let teste2: CalculadoraCientifica = new CalculadoraCientifica(4, 2);
 console.log(teste2.exponenciar());
 
 
