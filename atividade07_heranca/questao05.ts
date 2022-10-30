@@ -46,13 +46,3 @@ class ProdutoPerecivel extends Produto{
         }
     }
 }
-
-let arroz: Produto = new Produto(12, '...', 56, 9);
-arroz.repor(10);
-console.log(arroz.qtdEstoque);
-arroz.darBaixa(36);
-console.log(arroz.qtdEstoque);
-
-
-let uva: ProdutoPerecivel = new ProdutoPerecivel(7, '...', 60, 10, new Date('2023-01-12'));
-console.log(uva.estaValido());
