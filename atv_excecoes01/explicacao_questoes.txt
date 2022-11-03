@@ -1,0 +1,7 @@
+questão 02:
+1. Desconsiderar a operação: não temos certeza se a operação foi realizada ou não;
+2. Exibir mensagem de erro: ficamos atrelados à interface de texto, a mensagem provavelmente não seria notada na utilização de uma interface gráfica;
+3. Retornar um código de erro: é considerada uma má prática, pode levar à mudança do tipo de retorno do método; se o método já retorna um número calculado é difícil reservar códigos de erro que não se confundam um possível valor calculado, além de que o valor retornado não é intuitivo e carece de documentação para o entendimento.
+
+
+questão 04: Ocorreu o erro criado na exceção de saldo insuficiente e a operação de transferir não foi executada
