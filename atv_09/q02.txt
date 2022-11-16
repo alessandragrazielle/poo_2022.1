@@ -1,0 +1,15 @@
+2 - é necessária a implementação do método em ClasseConcreta
+
+
+abstract class ClasseAbstrata{
+    abstract imprimaAlgo(): void;
+}
+
+class ClasseConcreta extends ClasseAbstrata{
+    imprimaAlgo(): void {
+        console.log('Olá!');
+    }
+}
+
+let c: ClasseConcreta = new ClasseConcreta();
+c.imprimaAlgo()

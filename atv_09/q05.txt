@@ -1,0 +1,1 @@
+5 - Pois o array 'figuras' não armazenará objetos da classe FiguraGeometrica, já que ela é abstrata. Nele podem ser armazenados objetos de classes como Retângulo, Triângulo, Trapézio, ou seja, classes que herdam de FiguraGeometrica

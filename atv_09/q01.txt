@@ -1,0 +1,1 @@
+1 - Não. Ao tentar instanciar uma classe abstrata ocorre um erro, elas podem ser apenas herdadas, servem como “modelo” para outras classes. Apenas as classes que herdarem dela e forem implementadas poderão ser instanciadas
