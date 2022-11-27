@@ -1,0 +1,8 @@
+classes que apenas idealizam de forma genérica um tipo; geralmente não possuem um uso real no sistema a menos que sejam estendidas.
+
+Classe genéricas e suas classes derivadas:
+● Funcionario: Secretária, Professor, Gerente, Diretor;
+● Conta: Conta-Corrente, Poupança, Conta-Salário,
+Conta-Imposto;
+
+os métodos são definidos na classe raiz da hierarquia como abstratos; tais métodos não são implementados e as subclasses são obrigadas a implementá-los
